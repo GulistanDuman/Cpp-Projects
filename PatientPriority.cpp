@@ -60,11 +60,11 @@ struct ComparePatients {
     bool operator()(const Patient &a, const Patient &b) {
         if (a.getPriority() == b.getPriority()) {
             if (a.getAge() == b.getAge()) {
-                return a.getPatientNo() > b.getPatientNo(); // Önce kaydolan önde olur
+                return a.getPatientNo() > b.getPatientNo(); 
             }
-            return a.getAge() < b.getAge(); // Yaşı büyük olan önce gelmeli
+            return a.getAge() < b.getAge(); 
         }
-        return a.getPriority() < b.getPriority(); // Büyük öncelik en üstte olmalı
+        return a.getPriority() < b.getPriority(); 
     }
 };
 
