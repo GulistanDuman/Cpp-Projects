@@ -4,7 +4,7 @@ using namespace std;
 int main() {
 char s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15;  
 char eh;
-cout << " \t - Welcome to Game of 'Who wants to 500 million dollars?' - \n\n ";
+cout << " \t - Welcome to Game of 'Who wants to 500 million dollar?' - \n\n ";
 cout << " \t - Question 1 : When was the battle of Manzikert?  - \n\n\t\t A) 1071 \t\t B) 1453 \n\t\t C) 1915 \t\t D) 1923 \n\n";
 cout << " \t - Answer : ";
 cin >> s1;
